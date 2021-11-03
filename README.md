@@ -2,7 +2,7 @@
 
 ### Запросы (пример)
 * Добавление данных:
-POST http://localhost:8000/api/get-data
+POST http://localhost:8000/api/get-data  
 Body:
 ```json
 {
@@ -13,7 +13,7 @@ Body:
 ```
 
 * Авто превысившие указанную скорость за указанную дату:
-GET http://localhost:8000/api/queries/over-speed
+GET http://localhost:8000/api/queries/over-speed  
 Body:
 ```json
 {
@@ -23,7 +23,7 @@ Body:
 ```
 
 * Максимальная и минимальная зафиксированная скорость за указанную дату:
-GET http://localhost:8000/api/queries/min-max
+GET http://localhost:8000/api/queries/min-max  
 Body:
 ```json
 {
