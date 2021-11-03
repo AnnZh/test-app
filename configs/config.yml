@@ -1,0 +1,8 @@
+port: "8000"
+
+file:
+  name: "file.txt"
+
+time:
+  start: "09:00"
+  end: "18:00"
